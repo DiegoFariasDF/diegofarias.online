@@ -32,7 +32,7 @@
 }
 
 .img4 {
-    height: 400px;
+    height: 100px;
 
 }
 
@@ -59,7 +59,7 @@ header{
 
 
 .caixa1 {
-    background-image: url("indr27.png");
+    background-image: url("indr28.png");
     background-size: cover; /* Ajusta para cobrir toda a área */
     background-repeat: no-repeat; /* Não repete a imagem */
     background-position: center; /* Centraliza a imagem */
