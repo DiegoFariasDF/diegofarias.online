@@ -9,7 +9,7 @@
 }
 */
 .body{ 
-    background-color: #E4E4DE;
+    background-color: #b7b7b7;
 }
 /*
 .p{color:    #2c114c; text-align: center;
@@ -36,13 +36,21 @@
 
 }
 
+.img5 {
+    height: 300px;
+}
+
 
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     align-items: center; /* alinha os itens dentro da caixa de 500px especificada*/
     justify-content: space-between; 
-    background-color: #C4C5BA;
-    border-bottom: 5px solid    #2c114c;
+    background-color: #b7b7b7;
+    border-bottom: 5px solid    #1e1f21;
     height: 50px;
 }
 
@@ -51,9 +59,8 @@ header{
     flex-direction:row;
     align-items: center; /* alinha os itens dentro da caixa de 500px especificada*/
     justify-content: space-around; /* espaça entre os itens*/
-    background-color: #ebebe6;
-    height: 500px;
-    border-radius: 50px;
+    background-color: #1e1f21;
+    height: 600px;
     
 }
 
@@ -63,7 +70,7 @@ header{
     background-size: cover; /* Ajusta para cobrir toda a área */
     background-repeat: no-repeat; /* Não repete a imagem */
     background-position: center; /* Centraliza a imagem */
-    height: 500px;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -77,6 +84,8 @@ header{
     justify-content: space-around; /* espaça entre os itens*/
     height: 500px;
     border-radius: 50px;
+    flex-wrap: wrap;
+    
     
 }
 
@@ -105,6 +114,11 @@ header{
 
 }
 
+.caixa6 {
+    align-items: center;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
 
 /*
 #button {
@@ -152,6 +166,7 @@ nav a:hover::after{
     flex-wrap: wrap;
     width: 1100px; /* largura */
     height: 700 px; /*altura */
+    color: #b7b7b7;
     
 }
 
