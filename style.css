@@ -114,12 +114,13 @@ header{
 }
 
 .caixa7{
-    display: flex;
-    flex-direction:row;
-    align-items: center; /* alinha os itens dentro da caixa de 500px especificada*/
-    justify-content: space-around; /* espaça entre os itens*/
-    height: 20px;
+    align-items: center;
+    font-family: "fira code", Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 500px;
     background-color: #1e1f21;
+    display: flex;
+    justify-content:space-around;
 
 }
 
@@ -164,10 +165,27 @@ nav a:hover::after{
     
 }
 
-.h1 {
-text-align: center;
-font-size: 50px;
-width: 2100;
-color: #b7b7b7;
-
+h1 {
+    text-align: center;
+    font-size: 35px;
+    width: 1100;
+    color: #b7b7b7;
+    }
+    
+.direcao {
+    flex-direction: column;
+    display: inline-flex;
+    text-align: left;
+    color: #b7b7b7;
+}
+    
+.borda {
+    border-radius: 20px;
+    border-bottom: 4px solid #b7b7b7;
+}
+    
+.botao {
+    background-color: #b7b7b7;
+    border-radius: 20px;
+    border-color: #c4c2c2;
 }
