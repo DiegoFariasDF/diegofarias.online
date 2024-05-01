@@ -20,7 +20,6 @@
     </header>
 
 <div class="caixa1" id="caixa1"><!--top do site-->
-<!--<h1 class="h1">Diego Farias Dos Santos</h1>-->
 <img class="img4" src="toplogo-transformed.png">
 </div>
 
@@ -34,16 +33,9 @@
     um portfólio é uma obra de arte em constante evolução, que pode ser sempre aprimorado conforme meu conhecimento cresce.</p> 
 </div>
 
-<div class="caixa5"><!--espaçamento entre itens-->
-    <br>
-</div>
-<!--
-<div class="caixa6">
-<h1 class="h1">PROJETOS</h1>
-</div>-->
 <div>
-    <div class="caixa7">
-        <h1 class="h1" id="caixa2">PROJETOS</h1>
+    <div class="projetos">
+        <h1 id="caixa2">PROJETOS</h1>
     </div>
 
     <div class="caixa2">
@@ -53,54 +45,27 @@
     </div>
 </div>
 
-<div class="caixa5"><!--espaçamento entre itens-->
-    <br>
-</div>
-
 <!-- inicio do form-->
-<div class="caixa7" id="caixa3">
-    <div class="bordaexe">
-        <br>
-        <img class="img4" src="toplogo-transformed2.png">
-        <br>
-    </div>
-
-    <div class="bordaexe1">
-    <h1>ENTRAR EM CONTATO</h1>
-    <div class="direcao">
-        <label for="nome">
-            <strong>NOME:</strong>
-        </label>
-        <input type="text" name="nome" id="nome" required class="borda">
-    </div>
-
-    <br>
-
-    <div class="direcao">
-        <label for="email">
-            <strong>E-MAIL:</strong>
-        </label>
-        <input type="email" name="email" id="email" required class="borda">
-
-    </div>
-
-    <br>
-    
-    <div class="direcao">
-        <label for="mensagem"><strong>SUA MENSAGEM: </strong></label>
-        <textarea rows="6" style="width: 26em" id="mensagem" name="mensagem" class="borda"></textarea>
-
-    </div>
-    
-    <br>
-    <br>
+<div class="formulario" id="caixa3">
 
     <div>
-    <button class="botao" type="submit" onsubmit="">Enviar</button>  
+        <br>
+        <img class="img6" src="toplogo-transformed2.png">
+        <br>
     </div>
 
-    </div>
-</div>
+    <div class="interface"> 
+        <h1> CONTATO</h1>
+
+        <form action="">
+            <input type="text" name="" id="" placeholder="Seu nome:" required> <!--placeholder deixa o texto dentro da caixa de input, o required, transorma a caixa de input obrigatoria-->
+            <input type="email" name="" id="" placeholder="Seu e-mail:" required> <!--placeholder deixa o texto dentro da caixa de input-->
+            <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+            <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+        </form>
+
+    </div><!--interface-->
+
 <!-- fim do form-->
     
 </div>

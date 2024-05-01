@@ -31,6 +31,10 @@
     border-radius: 50px;
 }
 
+.img6 {
+    height: 50px;
+}
+
 
 header{
     position: fixed;
@@ -113,17 +117,6 @@ header{
     background-color: #1e1f21;
 }
 
-.caixa7{
-    align-items: center;
-    font-family: "fira code", Arial, Helvetica, sans-serif;
-    text-align: center;
-    height: 500px;
-    background-color: #1e1f21;
-    display: flex;
-    justify-content:space-around;
-
-}
-
 nav {
     text-align: center;
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
@@ -189,3 +182,76 @@ h1 {
     border-radius: 20px;
     border-color: #c4c2c2;
 }
+
+
+section.projetos{
+    padding: 160px 4%;
+}
+
+.projetos{
+    align-items: center;
+    font-family: "fira code", Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 300px;
+    background-color: #1e1f21;
+    display: flex;
+    justify-content:space-around;
+}
+
+/*INICIO DO FOMR*/
+section.formulario{
+    padding: 180px 4%;
+}
+
+.formulario{
+    align-items: center;
+    height: 500px;
+    background-color: #1e1f21;
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: #1e1f21;
+    
+
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color:#56565888;
+    border: 0;
+    outline: 0;
+    padding: 30px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+form textarea{
+    resize: none;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+button:hover, form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px;
+    transform: scale(1.05);
+}
+
