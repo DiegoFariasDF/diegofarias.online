@@ -83,11 +83,23 @@
         <div class="interface"> 
             <h1> CONTATO</h1>
 
-            <form action="">
-                <input type="text" name="nome" id="nome" placeholder="Seu nome:" required> <!--placeholder deixa o texto dentro da caixa de input, o required, transorma a caixa de input obrigatoria-->
+            <form action="https://api.staticforms.xyz/submit" method="post" class="card">
+                <input type="hidden" name="accessKey" value="d50bcfd5-0428-467c-89fc-ec05347df3fb">
+                <input type="hidden" name="redirectTo" value="https://diegofarias.online/">
+
+                <label for="inputNome"></label>
+                <input type="text" name="name" id="nome" placeholder="Seu nome:" required> <!--placeholder deixa o texto dentro da caixa de input, o required, transorma a caixa de input obrigatoria-->
+                <span></span>
+
+                <label for="inputEmail"></label>
                 <input type="email" name="email" id="email" placeholder="Seu e-mail:" required> <!--placeholder deixa o texto dentro da caixa de input-->
-                <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem" required></textarea>
-                <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                <span></span>
+
+                <label for="textAreaMensagem"></label>
+                <textarea name="mensagem" id="message" placeholder="Sua mensagem" required></textarea>
+                <span></span>
+
+                <div class="btn-enviar"><input type="submit" value="Submit"></div>
             </form>
 
         </div><!--interface-->

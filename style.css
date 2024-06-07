@@ -53,7 +53,7 @@ header{
     align-items: center; /* alinha os itens dentro da caixa de 500px especificada*/
     justify-content: space-around; /* espaça entre os itens*/
     background-color: #1e1f21;
-    height: 600px;
+    height: 800px;
     flex-wrap: wrap;
     
 }
@@ -233,7 +233,7 @@ section.formulario{
 
 .formulario{
     align-items: center;
-    height: 500px;
+    height: 550px;
     background-color: #1e1f21;
     display: flex;
     justify-content: space-evenly;
@@ -315,6 +315,7 @@ button:hover, form .btn-enviar input:hover{
     align-items: center;
     justify-content: space-around;
     width: 100%;
+    flex-wrap: wrap;
 
     
 }
