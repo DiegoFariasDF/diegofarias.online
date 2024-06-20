@@ -1,0 +1,8 @@
+.caixa4 {
+    display: flex;
+    flex-direction:row;
+    align-items: center; /* alinha os itens dentro da caixa de 500px especificada*/
+    justify-content: space-around; /* espaça entre os itens*/
+    background-color: #000;
+    height: 50px;    
+}

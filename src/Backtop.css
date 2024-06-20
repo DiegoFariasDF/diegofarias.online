@@ -1,0 +1,28 @@
+.backtop {
+    background-image: url("./indr28.png");
+    background-size: cover; /* Ajusta para cobrir toda a área */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-position: center; /* Centraliza a imagem */
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    
+  }
+
+.img4 {
+    width: 40%;
+  
+}
+
+@media screen and (max-width: 768px) {
+    .backtop {
+        width: 100%;
+        height: 50vh;
+    }
+    header img{
+        height: 20px;
+    }
+}
+  

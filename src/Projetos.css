@@ -1,0 +1,72 @@
+.projetos{
+    height: 125vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #1e1f21;
+    
+}
+
+
+.proj{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.proj h1{
+    color: #b7b7b7;
+    font-size: 45px;
+}
+  
+.note{
+    display: flex;
+    background-image: url(note1.png);
+    background-size: cover;
+    height: 500px;
+    width: 700px;
+    justify-content: center;
+    margin-top: 50px;  
+}
+
+
+  
+  
+  
+.note img{
+    height: 300px;
+    width: 460px;
+    margin: 98px 0 0 18px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .projetos{
+        height: 170vh;
+    }
+
+    .note{
+        
+        height: 250px;
+        width: 350px;
+        justify-content: center;
+        margin-top: 25px;  
+    }
+
+    .note img{
+        height: 150px;
+        width: 230px;
+        margin: 49px 0 0 9px;
+        border-radius: 5px;
+    }
+
+    .proj h1{
+        font-size: 30px;
+    }
+
+}
