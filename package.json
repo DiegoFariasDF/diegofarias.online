@@ -1,7 +1,7 @@
 {
   "name": "diegofarias",
   "version": "0.1.0",
-  "homepage": "https://diegofariasdf.github.io/diegofarias.online",
+  "homepage": "https://diegofariasdf.github.io/diegofarias.online/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
