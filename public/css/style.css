@@ -1,0 +1,53 @@
+header{
+    background-color: #000;  
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    
+}
+
+header img{
+    height: 35px;
+}
+
+.topo {
+    background-image: url("../img/montanha.png");
+    background-size: cover; /* Ajusta para cobrir toda a área */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-position: center; /* Centraliza a imagem */
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.topo img {
+    height: 100px;
+
+}
+
+.bg-custom {
+    background-color: #1d1e20 !important;
+    color: #ffffff; 
+}
+
+.card:hover {
+    transform: scale(1.01);
+    transition: 0.3s ease-in-out;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #1d1e20;
+}
