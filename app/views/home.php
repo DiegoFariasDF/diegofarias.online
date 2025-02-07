@@ -28,7 +28,19 @@
     <div class="container">
         <h2 class="text-center mb-4">Meus Projetos</h2>
         <div class="row g-4">
-            <!-- Card 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow border-0">
+                    <img src="public/img/intranet.png" class="card-img-top" alt="Projeto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Intranet SAAE</h5>
+                        <p class="card-text">Sistema de intranet para comunicação e gestão interna na empresa pública de saneamento básico.</p>
+                        <a href="https://intranet.example.com" target="_blank" class="btn btn-dark">
+                            Ver Projeto
+                        </a>
+                    </div>
+                </div>
+            </div>    
+
             <div class="col-lg-4 col-md-6">
                 <div class="card shadow border-0">
                     <img src="public/img/faztudo.png" class="card-img-top" alt="Projeto 1">
@@ -54,19 +66,6 @@
                     </div>
                 </div>
             </div>
-            
-            <div class="col-lg-4 col-md-6">
-                <div class="card shadow border-0">
-                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Projeto 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Intranet SAAE</h5>
-                        <p class="card-text">Sistema de intranet para comunicação e gestão interna na empresa pública de saneamento básico.</p>
-                        <a href="https://intranet.example.com" target="_blank" class="btn btn-dark">
-                            Ver Projeto
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
@@ -86,25 +85,25 @@
                 <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon~old.svg" class="img-fluid" style="width: 64px;"></img>
                 <h5 class="mt-3">CSS</h5>
             </div>
-            <!-- BOOTSTRAP -->
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg" class="img-fluid" style="width: 64px;"></img>
-                <h5 class="mt-3">BOOTSTRAP</h5>
-            </div>
             <!-- PHP -->
             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                 <img src="https://www.vectorlogo.zone/logos/php/php-icon.svg" class="img-fluid" style="width: 64px;"></img>
                 <h5 class="mt-3">PHP</h5>
             </div>
-            <!-- APACHE -->
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                <img src="https://www.vectorlogo.zone/logos/apache/apache-icon.svg" class="img-fluid" style="width: 64px;"></img>
-                <h5 class="mt-3">APACHE</h5>
-            </div>
             <!-- MariaDB -->
             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                 <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="MariaDB" class="img-fluid" style="width: 64px;">
                 <h5 class="mt-3">MariaDB</h5>
+            </div>
+            <!-- BOOTSTRAP -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg" class="img-fluid" style="width: 64px;"></img>
+                <h5 class="mt-3">BOOTSTRAP</h5>
+            </div>
+            <!-- APACHE -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <img src="https://www.vectorlogo.zone/logos/apache/apache-icon.svg" class="img-fluid" style="width: 64px;"></img>
+                <h5 class="mt-3">APACHE</h5>
             </div>
             <!-- git -->
             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">

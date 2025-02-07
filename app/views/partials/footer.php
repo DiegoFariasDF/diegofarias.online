@@ -1,4 +1,4 @@
-    <footer>
+    <footer class="navbar-dark bg-dark text-light">
         <p>DESENVOLVIDO POR DIEGO FARIAS</p>
     </footer>
     <!-- Option 1: Bootstrap Bundle with Popper -->
