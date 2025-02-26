@@ -55,3 +55,28 @@ header img{
 footer p{
     margin: 0;
 }
+
+
+
+/*tablet*/
+@media screen and (min-widh:768px) and (max-width: 1023px){
+    
+    .topo img {
+        height: 60px;
+    }
+    
+    #perfil{
+        height: 100px;
+    }
+}
+/*celular*/
+@media screen and (max-width: 767px){
+
+    .topo img {
+        height: 50px;
+    }
+
+    #perfil{
+        height: 190px;
+    }
+}

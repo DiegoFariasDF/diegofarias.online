@@ -1,8 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="pt-br">
-<>
     <title>Diego Farias</title>
     <link rel="stylesheet" href="public/css/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/public/js/index.js"></script>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Google tag (gtag.js) -->
@@ -15,6 +16,25 @@
     gtag('config', 'G-MBJBF2SD6R');
     </script>
 </head>
+
+<!-- Modal -->
+<div class="modal fade" id="avisoModal" tabindex="-1" aria-labelledby="avisoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="avisoModalLabel">Aviso</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+            </div>
+            <div class="modal-body">
+                Este projeto está hospedado localmente e só pode ser acessado dentro da rede interna da empresa, uma versão Open Source esta sendo desenvolvida.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <body>
 <header class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
@@ -29,17 +49,15 @@
             <div class="collapse navbar-collapse" id="navbarDark">
                 <ul class="navbar-nav ms-auto mb-2 mb-xl-0 fs-5 ms-auto p-2 text-center">
                 <li class="nav-item me-3">
-                    <a class="nav-link " aria-current="page" href="?pagina=camp">Home</a>
+                    <a class="nav-link " aria-current="page" href="?pagina=">Home</a>
                 </li>
                 <li class="nav-item me-3">
-                    <a class="nav-link" href="?pagina=sejasocio">Associe-se</a>
+                    <a class="nav-link" href="#projetos">Projetos</a>
                 </li>
                 <li class="nav-item me-3">
-                    <a class="nav-link" href="?pagina=contato">Contato</a>
+                    <a class="nav-link" href="#fale-conosco">Contato</a>
                 </li>
-                <li class="nav-item me-3">
-                    <a class="nav-link" href="?pagina=sobre">Nossa Historia</a>
-                </li>
+                
                 
                 </ul>
             </div>
